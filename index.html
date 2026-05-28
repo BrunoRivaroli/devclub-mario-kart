@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mario Bros</title>
+  </head>
+  <body>
+    <div class="mask-form" onclick="hideform()"></div>
+    <div class="background">
+      <div class="mask-video"></div>
+      <video src="./assets/video.mp4" autoplay muted loop></video>
+    </div>
+    <header class="container-header">
+      <img src="./assets/logo-header.png" alt="logo-header" />
+      <a href="index.html">Home</a>
+      <a href="#" onclick="showform()">Acelere Conosco</a>
+      <a href="circuits.html">Circuitos</a>
+    </header>
+    <main class="container-hero">
+      <section class="container-description">
+        <img src="./assets/logo.png" alt="logo-section" />
+        <h1>
+          🌟 Reino dos Cogumelos: Aventuras, Desafios e Muita Velocidade! 🍄
+        </h1>
+        <p>
+          Pronto para deixar o mundo comum para trás e saltar direto para a
+          ação? De canos misteriosos que levam a novas fases até disputas
+          frenéticas em pistas de tirar o fôlego, nós temos o passaporte para a
+          sua diversão! Junte-se a Mario e Luigi para coletar moedas de ouro,
+          superar o exército de Bowser e dominar os circuitos mais insanos do
+          mundo. Pegue seu Super Cogumelo, ligue os motores e venha salvar o dia
+          (e a corrida) com estilo!
+        </p>
+        <button onclick="showform()">Entre em Contato</button>
+      </section>
+      <section class="logo-mario-luigi">
+        <img src="./assets/mario.png" alt="image-mario-luigi" />
+      </section>
+      <form
+        action="https://formcarry.com/s/5VQoGI3U3Nh"
+        class="box-form"
+        method="post"
+      >
+        <input type="text" placeholder="Seu nome" name="name" />
+        <input type="email" placeholder="Seu melhor email" name="email" />
+        <textarea
+          name="problem"
+          id=""
+          placeholder="Digite seu problema aqui..."
+        ></textarea>
+        <button type="submit">Pedir Orçamento</button>
+      </form>
+    </main>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
