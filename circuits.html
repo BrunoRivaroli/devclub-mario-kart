@@ -9,7 +9,7 @@
     <title>Serviços</title>
   </head>
   <body>
-    <div class="backgroud-services">
+    <div class="backgroud-services" onclick="hideform()">
       <img src="./assets/backgroud.jpeg" alt="imagem do mundo mario" />
     </div>
     <header class="container-header">
@@ -70,7 +70,27 @@
           alt="wario-kart"
         />
       </div>
+      <form
+        action="https://formcarry.com/s/5VQoGI3U3Nh"
+        class="box-form"
+        method="post"
+      >
+        <input type="text" placeholder="Seu nome" name="name" />
+        <input type="email" placeholder="Seu melhor email" name="email" />
+        <textarea
+          name="problem"
+          id=""
+          placeholder="Digite seu problema aqui..."
+        ></textarea>
+        <button type="submit">Pedir Orçamento</button>
+      </form>
     </main>
+    <a
+      href="https://api.whatsapp.com/send/?phone=5511981363456"
+      target="_blank"
+    >
+      <img src="./assets/whatsapp.png" alt="whatsapp" class="whatsapp-float" />
+    </a>
   </body>
   <script src="./scripts.js"></script>
 </html>

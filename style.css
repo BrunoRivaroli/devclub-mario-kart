@@ -106,7 +106,7 @@
 
 .box-form {
   position: fixed;
-  left: -330px;
+  left: -340px;
   display: flex;
   flex-direction: column;
   background: white;
@@ -190,6 +190,13 @@
   filter: grayscale(0%);
 }
 
+.whatsapp-float {
+  height: 70px;
+  position: fixed;
+  right: 30px;
+  bottom: 80px;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 1000px) {
@@ -254,10 +261,6 @@
     width: 90%;
   }
 
-  .box-form {
-    left: -340px;
-
-  }
 
   /* MOBILE SERVICES */
 
@@ -295,5 +298,12 @@
     height: 550px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .whatsapp-float {
+    height: 60px;
+    position: fixed;
+    right: 15px;
+    bottom: 80px;
   }
 }
